@@ -1,0 +1,22 @@
+.create-story {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+.create-story-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn-action-container {
+    display: flex;
+    justify-content: right;
+    gap: 2rem;
+}

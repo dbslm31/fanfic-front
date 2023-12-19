@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;500;600;700;800&display=swap');
+
+* {
+  font-family: 'Sen', sans-serif;
+}
+
 .App {
+
+
   text-align: center;
+
 }
 
 .App-logo {
@@ -32,7 +41,49 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.btn-outline {
+  color: #37474f !important;
+  border-color: #37474f !important;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  margin-top: 5rem;
+  background-color: #101828;
+  height: 200px;
+  color: #fff;
+}
+
+.footer-logo {
+  width: 100px;
+}
+
+
+.footer-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-links>div {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-infos {
+  width: 250px;
+}
+
+.footer-infos p {
+  text-align: justify;
+  font-size: 12px;
 }

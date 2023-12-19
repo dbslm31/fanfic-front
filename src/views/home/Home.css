@@ -1,0 +1,43 @@
+.app-stories-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-story {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px #37474f solid;
+    margin: 1rem;
+    padding: .5rem;
+    border-radius: 5px;
+    width: 50%;
+
+}
+
+.card-story-pic-container {
+
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.story-pic {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-story-description {
+    flex: 2;
+    text-align: left;
+    padding-left: 2rem;
+    text-align: justify;
+}
+
+.card-story-btn {
+    align-self: right;
+}
